@@ -1,0 +1,14 @@
+POST http://127.0.0.1:8000/load_tariff/
+
+{
+    "2000-07-07": [
+        {
+            "cargo_type": "Glass",
+            "rate": 0.04
+        },
+        {
+            "cargo_type": "Other",
+            "rate": 0.01
+        }
+    ]
+}

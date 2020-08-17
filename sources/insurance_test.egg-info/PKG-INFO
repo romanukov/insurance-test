@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: insurance-test
+Version: 1.0.0
+Summary: Test work
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: Test work for python team on FastAPI and Tortoise
+Platform: UNKNOWN
+Requires-Python: >=3.7.0<3.8
+Description-Content-Type: text/plain
+Provides-Extra: dev

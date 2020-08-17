@@ -1,0 +1,8 @@
+POST http://127.0.0.1:8000/get_insurance_price/
+
+{
+
+    "cargo_type": "Glass",
+    "date": "2001-01-01",
+    "declared_value": 100
+}
