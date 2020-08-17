@@ -13,28 +13,38 @@
 
 * Клонируем этот репозиторий к себе
 * Создаем виртуальное окружение и устанавливаем туда зависимости
-    
+
+
     
     python -m venv venv
     source venv/bin/activate
     pip install "sources/.[dev]"
 
 
+
 * Создаем .env файл и меняем нужные настройки
 
 
+
     cp .env.example .env
-    
+
+
+
 * Собираем приложение
+
 
 
     inv build
     docker-compose build
-    
+
+
+
 * Запускаем приложение
 
 
+
     docker-compose up -d
+
 
 
 Приложение доступно по адресу 127.0.0.1:8000.
