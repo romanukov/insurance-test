@@ -1,21 +1,10 @@
 version: "3.4"
 
 services:
-  postgres:
-    build:
-      context: .
-      dockerfile: ./services/postgres/Dockerfile
-      network: "host"
-    env_file:
-      - .env
-    volumes:
-      - ./data/postgres:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
   app:
     build:
       context: .
-      dockerfile: ./services/app/Dockerfile
+      dockerfile: ./Dockerfile
       network: "host"
     command: "uvicorn --host 0.0.0.0 api.app:app"
     env_file:

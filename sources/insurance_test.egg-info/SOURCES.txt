@@ -11,10 +11,10 @@ insurance_test.egg-info/dependency_links.txt
 insurance_test.egg-info/requires.txt
 insurance_test.egg-info/top_level.txt
 logic/__init__.py
-logic/app_settings.py
 logic/cases.py
 logic/constants.py
 logic/database.py
 logic/errors.py
 logic/models.py
+logic/settings.py
 logic/tables.py
