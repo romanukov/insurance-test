@@ -15,7 +15,6 @@ setup(
         'tortoise-orm>=0.16.14<0.17',
         'uvicorn>=0.11.8<0.12',
         'python-dotenv>=0.14.0<0.15',
-        'asyncpg>=0.21.0<0.22',
     ],
     extras_require=dict(
         dev=[
